@@ -1,4 +1,4 @@
-package com.viktoriagavrosh.weather
+package com.viktoriagavrosh.weather.presentor.settings
 
 import android.os.Bundle
 import android.view.LayoutInflater

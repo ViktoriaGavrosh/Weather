@@ -1,15 +1,15 @@
-package com.viktoriagavrosh.weather
+package com.viktoriagavrosh.weather.presentor.details
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.viktoriagavrosh.weather.databinding.FragmentInfoBinding
+import androidx.fragment.app.Fragment
+import com.viktoriagavrosh.weather.databinding.FragmentDetailsBinding
 
-class InfoFragment : Fragment() {
+class DetailsFragment : Fragment() {
 
-    private var _binding: FragmentInfoBinding? = null
+    private var _binding: FragmentDetailsBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -17,7 +17,7 @@ class InfoFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        _binding = FragmentInfoBinding.inflate(inflater, container, false)
+        _binding = FragmentDetailsBinding.inflate(inflater, container, false)
         val view: View = binding.root
 
         return view
