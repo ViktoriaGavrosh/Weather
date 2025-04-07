@@ -1,4 +1,10 @@
 package com.viktoriagavrosh.weather.domain
 
-class ApiModule {
+import dagger.Module
+import dagger.hilt.InstallIn
+import dagger.hilt.android.components.ActivityComponent
+
+@Module
+@InstallIn(ActivityComponent::class)
+object ApiModule {
 }
