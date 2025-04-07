@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/infoFragment"
-        android:name="com.viktoriagavrosh.weather.presentor.info.InfoFragment"
+        android:name="com.viktoriagavrosh.weather.presentation.info.InfoFragment"
         android:label="fragment_info"
         tools:layout="@layout/fragment_info" >
         <action
@@ -22,13 +22,13 @@
     </fragment>
     <fragment
         android:id="@+id/detailsFragment"
-        android:name="com.viktoriagavrosh.weather.presentor.details.DetailsFragment"
+        android:name="com.viktoriagavrosh.weather.presentation.details.DetailsFragment"
         android:label="fragment_details"
         tools:layout="@layout/fragment_details" >
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.viktoriagavrosh.weather.presentor.settings.SettingsFragment"
+        android:name="com.viktoriagavrosh.weather.presentation.settings.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" />
 </navigation>
