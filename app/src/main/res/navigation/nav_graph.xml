@@ -9,7 +9,7 @@
         android:id="@+id/infoFragment"
         android:name="com.viktoriagavrosh.weather.presentation.info.InfoFragment"
         android:label="fragment_info"
-        tools:layout="@layout/fragment_info" >
+        tools:layout="@layout/fragment_info">
         <action
             android:id="@+id/action_infoFragment_to_detailsFragment"
             app:destination="@id/detailsFragment" />
@@ -24,8 +24,7 @@
         android:id="@+id/detailsFragment"
         android:name="com.viktoriagavrosh.weather.presentation.details.DetailsFragment"
         android:label="fragment_details"
-        tools:layout="@layout/fragment_details" >
-    </fragment>
+        tools:layout="@layout/fragment_details"></fragment>
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.viktoriagavrosh.weather.presentation.settings.SettingsFragment"
